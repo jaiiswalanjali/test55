@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+
+    h1,h2,h3,h4,h5,h6{
+        font-weight: bold;
+    }
+
+p{
+    line-height: 1.7;
+}
+
+.top
+{
+    background:#214c00 ; 
+    color: #fff;
+    padding:8px;
+}
+ul{
+    list-style: none;
+}
+.con
+{
+    width: 1200px;
+    margin: auto;
+}
+.flex
+{
+    display: flex;
+    justify-content:  space-between ;
+}
+.top ul{
+    display: flex;
+    gap: 20px;
+}
+header{
+    background:rgba(4, 89, 35, 0.962)  ;
+    color: #fff;
+    padding: 20px 0;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: #fff;
+
+}
+.banner{
+    background: linear-gradient(#214c00,rgba(18, 155, 68, 0.66));
+    padding: 30px 0;
+}
+.banner img{
+    height: 350px;
+    object-fit: cover;
+}
+.about{
+    padding: 20px 0ss;
+    display: flex;
+    padding: 30px;
+}
+.about-left{
+    width: 70%;
+}
+.about-right{
+    width: 25%;
+    background:#214c00 ;
+    padding: 10px;
+    color: #fff;
+}
+.details{
+    background: rgb(154, 192, 206);
+    width: 1550px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    gap: 5px;
+}
+.details-left
+{
+    color: green;
+
+}
+.details-right
+{
+    color: black;
+}
+ .details button{
+    background: rgb(155, 198, 215);
+    padding: 2px;
+    border-color: #fff;
+}
+details ul{
+    display: block;
+    gap: 20px;
+}
+footer{
+    background:#2b5b06;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer h3{
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+footer button{
+    background: yellow;
+    border-color: black;
+    padding: 5 px;
+}
+
+.copyright{
+    background:#214c00;
+    color: #fff;
+    padding: 10px 0;
+}
+.main{
+    padding: 30px 0;
+}
+.main p{
+    padding-bottom: 30px;
+}
+.form input {
+display: block;
+margin: 20px 0;
+width: 450px;
+height: 45px;
+padding-left: 20px; ;
+}
+form textarea{
+    width: 450px;
+    height: 200px;
+    display: block;
+    resize: none;
+}
